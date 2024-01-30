@@ -68,7 +68,15 @@ const Projects = () => {
           />
         </div>
         <div className=" w-full md:w-3/12">
-          <Card />
+          <Card
+           date="Feb, 2024"
+           name="SPA Dr.Galichini"
+           text="Aesthetic Medicine"
+           color="text-sky-300"
+           framwork=" React"
+           articule=""
+           demo=""
+          />
         </div>
       </div>
     </div>
