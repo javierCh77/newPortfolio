@@ -76,7 +76,7 @@ const Home = () => {
                 color='text-red-300'
                 framwork=' Angular'
                 articule=''
-                demo=''
+                demo='https://app-price-jch.netlify.app/'
               />
            </div>
            <div className=' w-full md:w-3/12'>
