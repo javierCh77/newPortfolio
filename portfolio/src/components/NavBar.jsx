@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="  px-8 md:px-12 ">
+    <nav className="  px-8 md:px-12  ">
       <div className="container mx-auto flex items-center justify-between ">
    
         {/* Menú Hamburguesa para dispositivos pequeños */}
@@ -36,7 +36,7 @@ const NavBar = () => {
         </div>
 
         {/* Menú de Navegación para pantallas grandes */}
-        <div className="hidden lg:flex space-x-4">
+        <div className="hidden lg:flex space-x-4 ml-10 ">
         <Link to="/abaut" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-sky-500">
               Abaut
             </Link>
