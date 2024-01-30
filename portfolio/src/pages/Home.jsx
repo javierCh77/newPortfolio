@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       
       
-      <div className='w-3/12 p-8 ml-10 md:ml-0 '>
+      <div className='w-3/12 p-8 ml-12 md:ml-0 '>
           <span className="loader "></span>
       </div>   
     </div>
@@ -36,10 +36,22 @@ const Home = () => {
         </div>
         <div className='gap-1 flex flex-wrap container justify-between'>
            <div className=' w-full md:w-3/12'>
-              <Card/>
+              <Card 
+              date='Jan 23, 2024'
+              name='Gift Experts'
+              text='Find your favorite gift'
+              articule=''
+              demo='https://gif-expert-javier-chavarria.netlify.app/'
+              />
            </div> 
            <div className=' w-full md:w-3/12'>
-              <Card/>
+              <Card
+              date='Sep 25, 2023'
+              name='App Weather React'
+              text='Time finder by zone'
+              articule=''
+              demo='https://gif-expert-javier-chavarria.netlify.app/'
+              />
            </div>
            <div className=' w-full md:w-3/12'>
               <Card/>
