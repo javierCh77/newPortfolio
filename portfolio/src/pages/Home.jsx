@@ -50,7 +50,7 @@ const Home = () => {
               name='App Weather React'
               text='Time finder by zone'
               articule=''
-              demo='https://gif-expert-javier-chavarria.netlify.app/'
+              demo='https://app-weather-jch.netlify.app/'
               />
            </div>
            <div className=' w-full md:w-3/12'>
