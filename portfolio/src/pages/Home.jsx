@@ -9,12 +9,13 @@ import linkedin from '../assets/logos/linkedin.png'
 import github from '../assets/logos/github.png'
 import Footer from '../components/Footer'
 
+
 const Home = () => {
   return (
     <div>
     <div className='bg-slate-900 text-white w-full p-10 rounded flex flex-wrap container justify-between  '> 
       <div className=' w-full md:w-9/12 text-left '>
-          <h1 className=' text-3xl md:text-5xl'>Hey, I'm Javier! </h1>
+          <h1 className=' text-3xl md:text-5xl  '>Hey, I'm Javier! </h1>
           <p className='mt-10 text-lg md:text-xl  '>Welcome to my digital space. 🚀</p>
           <p className='mt-5 text-l md:text-xl '>I'm a software developer in Ushuaia ARG. I make<Link to='/projects' className='text-sky-300'> open-source</Link></p>
           <p className=' text-l md:text-xl '><Link to='/projects' className='text-sky-300'> projects</Link> and write about code, design, and life. I like </p>
@@ -35,9 +36,9 @@ const Home = () => {
               View all
             </Link>
         </div>
-        <div className='gap-1 flex flex-wrap container justify-between'>
-           <div className=' w-full md:w-3/12'>
-              <Card 
+        <div className='gap-1 flex flex-wrap container justify-between '>
+           <div className=' w-full md:w-3/12  '>
+              <Card  
               date='Jan 23, 2024'
               name='Gift Experts App '
               text='Find your favorite gift now'

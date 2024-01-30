@@ -27,7 +27,7 @@ export const Abaut = () => {
         </div>
 
         <div className="bg-slate-900 text-white w-full md:w-2/6 p-8 md:rounded-r-lg flex flex-col justify-center   ">
-          <div className="">
+          <div className="shadow-lg  shadow-cyan-500/50">
             <img className="rounded" src={yo} alt="Javier Chavarria" />
           </div>
         </div>
