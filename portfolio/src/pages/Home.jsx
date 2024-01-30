@@ -38,8 +38,10 @@ const Home = () => {
            <div className=' w-full md:w-3/12'>
               <Card 
               date='Jan 23, 2024'
-              name='Gift Experts'
-              text='Find your favorite gift'
+              name='Gift Experts App '
+              text='Find your favorite gift now'
+              color='text-sky-300'
+              framwork=' React'
               articule=''
               demo='https://gif-expert-javier-chavarria.netlify.app/'
               />
@@ -49,18 +51,44 @@ const Home = () => {
               date='Sep 25, 2023'
               name='App Weather React'
               text='Time finder by zone'
+              color='text-sky-300'
+              framwork=' React'
               articule=''
               demo='https://app-weather-jch.netlify.app/'
               />
            </div>
            <div className=' w-full md:w-3/12'>
-              <Card/>
+              <Card
+              date='Dec 7, 2023'
+              name='Booking App'
+              text='Booking management system  with alerts'
+              color='text-green-300'
+              framwork=' Python'
+              articule=''
+              demo=''
+              />
            </div>
            <div className=' w-full md:w-3/12'>
-              <Card/>
+              <Card
+                date='Sep 12, 2022'
+                name='Fair Prices App'
+                text='Control prices of products'
+                color='text-red-300'
+                framwork=' Angular'
+                articule=''
+                demo=''
+              />
            </div>
            <div className=' w-full md:w-3/12'>
-              <Card/>
+              <Card
+               date='Nov 22, 2023'
+               name='Movie search engine'
+               text='All the latest movies'
+               color='text-sky-300'
+               framwork=' React'
+               articule=''
+               demo='https://movie-app-jch.netlify.app/'
+              />
            </div>
            <div className=' w-full md:w-3/12'>
               <Card/>
