@@ -40,8 +40,8 @@ const NavBar = () => {
         <Link to="/abaut" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-sky-500">
               Abaut
             </Link>
-            <Link to="/blog" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-green-500">
-              Blog
+            <Link to="/articles" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-green-500">
+            Articles
             </Link>
             <Link to="/projects" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-yellow-300">
               Projects
