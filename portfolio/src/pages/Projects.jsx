@@ -12,6 +12,7 @@ const Projects = () => {
        
       </div>
       <div className="gap-1 flex flex-wrap container justify-between">
+      
         <div className=" w-full md:w-3/12">
         <Card
             date="Feb 1, 2024"
@@ -21,8 +22,8 @@ const Projects = () => {
             framwork=" React"
             articule=""
             demo="https://app-mci.netlify.app/"
-          />
-        
+          /></div>
+        <div className=" w-full md:w-3/12">
           <Card
             date="Jan 23, 2024"
             name="Gift Experts App "
