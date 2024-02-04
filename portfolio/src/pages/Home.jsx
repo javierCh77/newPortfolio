@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div className='min-h-screen'>
     <div className='bg-slate-900 text-white w-full p-10 rounded flex flex-wrap container justify-between  '> 
       <div className=' w-full md:w-9/12 text-left '>
           <h1 className=' text-3xl md:text-5xl  '>Hey, I'm Javier! </h1>
@@ -36,8 +36,23 @@ const Home = () => {
               View all
             </Link>
         </div>
+        
+        
         <div className='gap-1 flex flex-wrap container justify-between '>
+        
+        
            <div className=' w-full md:w-3/12  '>
+           <Card
+            date="Feb 1, 2024"
+            name="App MCI "
+            text="Spa & Church Management App"
+            color="text-sky-300"
+            framwork=" React"
+            articule=""
+            demo="https://app-mci.netlify.app/"
+          /></div> 
+          
+           <div className=' w-full md:w-3/12  '> 
               <Card  
               date='Jan 23, 2024'
               name='Gift Experts App '
@@ -59,17 +74,7 @@ const Home = () => {
               demo='https://app-weather-jch.netlify.app/'
               />
            </div>
-           <div className=' w-full md:w-3/12'>
-              <Card
-              date='Dec 7, 2023'
-              name='Booking App'
-              text='Booking management system  with alerts'
-              color='text-green-300'
-              framwork=' Python'
-              articule=''
-              demo=''
-              />
-           </div>
+           
            <div className=' w-full md:w-3/12'>
               <Card
                 date='Sep 12, 2022'
@@ -113,7 +118,7 @@ const Home = () => {
     </div>
     
     
-    <div className='mt-4 text-white flex flex-wrap container justify-between   '>
+    <div className='mt-4 text-white flex flex-wrap container justify-between  flex-grow '>
         <div className=' p-4  outline outline-offset-2 outline-1 mt-8 w-full md:w-5/12'>
           <p>December 2022</p>
           <Link className='text-lg font-semibold text-sky-300 hover:text-violet-300' to='https://www.linkedin.com/in/javier-chavarria-78a538205/details/certifications/1635549063349/single-media-viewer?type=DOCUMENT&profileId=ACoAADQ5-VoBwM51iq0puOSWVc9KIUK_doTYgJ4&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUmWAeGKPQdmOa4oeqGfCHA%3D%3D' target='_blank'>Diploma Front-End</Link>

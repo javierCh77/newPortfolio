@@ -1,18 +1,28 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import Card from '../components/Card'
-
+import Footer from '../components/Footer'
 
 const Projects = () => {
   return (
-  
-    <div className="bg-slate-900 text-white mt-8 p-8 rounded  w-full ">
-      <div className="flex gap-5   justify-between  w-5.5/6 ">
+  <>
+    <div className="bg-slate-900 text-white mt-8 p-8 rounded  w-full min-h-screen ">
+      <div className="flex gap-5   justify-between  w-5.5/6  ">
         <h1 className="text-3xl">Projects</h1>
        
       </div>
       <div className="gap-1 flex flex-wrap container justify-between">
         <div className=" w-full md:w-3/12">
+        <Card
+            date="Feb 1, 2024"
+            name="App MCI "
+            text="Spa & Church Management App"
+            color="text-sky-300"
+            framwork=" React"
+            articule=""
+            demo="https://app-mci.netlify.app/"
+          />
+        
           <Card
             date="Jan 23, 2024"
             name="Gift Experts App "
@@ -80,6 +90,10 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    
+    <Footer/>
+    </>
+    
   );
 };
 

@@ -11,7 +11,7 @@ import github from '../assets/logos/github.png'
 const Footer = () => {
   return (
   <>
-    <div className="container text-center mt-10 flex flex-col  ">
+    <div className="container text-center mt-10 flex flex-col   ">
       <div className="text-3xl ">💾</div>
       <p className="text-white text-xl mt-2 font-semibold">Javier Chavarria</p>
       <div className="flex justify-between md:justify-evenly  mt-2">
